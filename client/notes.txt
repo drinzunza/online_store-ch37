@@ -1,0 +1,19 @@
+# run react:
+npm start
+
+
+
+# create a git repository
+git init
+git remote add origin <url>
+
+# create local copy
+git add .
+git commit -m "MESSAGE"
+
+# Push (first time)
+git push -u origin main 
+(                    ^ or master)
+
+# Push future times
+git push

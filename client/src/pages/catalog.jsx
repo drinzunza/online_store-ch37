@@ -21,3 +21,7 @@ const Catalog = () => {
 };
 
 export default Catalog;
+
+
+
+// JS default vs named exports

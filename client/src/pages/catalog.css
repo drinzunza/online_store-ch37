@@ -1,0 +1,9 @@
+.catalog {
+    background-color: #fafafa;
+    padding-top: 15px;
+}
+
+.catalog h3 {
+    text-align: center;
+    color: rgb(8, 73, 71);
+}

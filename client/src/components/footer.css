@@ -1,0 +1,11 @@
+
+.footer {
+    border-top: 1px solid #9a9b9c;
+    background-color: #efefeb;
+    padding: 10px 0;
+}
+
+.footer h5 {
+    text-align: center;
+    color: #999;
+}

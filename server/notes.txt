@@ -1,0 +1,16 @@
+# create a virtual env for python
+python3 -m venv venv
+
+
+# activate the virtual env
+win: venv/Scripts/activate
+mac: source venv/bin/activate
+
+# install flask
+python3 -m pip install flask
+
+# install pymongo
+python3 -m pip install pymongo "pymongo[srv]" certifi
+
+# run project
+flask --app server run --debug

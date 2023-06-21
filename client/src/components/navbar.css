@@ -3,3 +3,21 @@
     color: blue;
     text-align: center;
 }
+
+
+.navbar {
+    background: rgb(34, 100, 77);
+}
+
+.navbar .lbl-user {
+    color: #d3d3d3;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    padding: 5px 5px 0 5px;
+}
+
+.navbar .lbl-user .i-user {
+    padding-right: 5px;
+}

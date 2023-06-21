@@ -40,5 +40,12 @@
 
 
 main {
-  min-height: calc(100vh - 155px);
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex-grow: 1;
+  background-color: #f0f4f4;
 }

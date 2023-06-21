@@ -1,9 +1,26 @@
 .catalog {
-    background-color: #fafafa;
-    padding-top: 15px;
+    min-height: 100%;
+}
+
+.catalog h1 {
+    text-align: left;
+    margin-right: -10px;
+    font-size: 70px;
+    color: #d6d6d6;
+    position: absolute;
+    left: -13px;
+    top: 46px;
+}
+
+.catalog .products {
+    padding-top: 50px;
 }
 
 .catalog h3 {
     text-align: center;
     color: rgb(8, 73, 71);
+}
+
+.catalog .btn-filter {
+    margin: 5px;
 }

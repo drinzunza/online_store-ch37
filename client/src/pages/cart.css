@@ -1,0 +1,82 @@
+.cart {       
+}
+
+.cart h1 {        
+    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-right: -10px;    
+    font-size: 100px;
+    color: #828284;
+}
+
+.cart .cart-content {
+    display: flex;
+}
+
+.cart .cart-content .product-list {
+    flex: 3;
+    padding: 10px 20px;
+}
+
+.cart .cart-content .info {
+    flex: 1;
+    border: 1px solid #b0aeae;
+    border-radius: 4px;
+    background-color: white;
+    padding-top: 14px;
+    border-right-width: 0;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    box-shadow: -1px 1px 3px -2px #383535;
+}
+
+.cart .cart-content .info h3 {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #4f5551;
+}
+
+.cart .discount {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+    background-color: #f5f4f4;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #dddbdb;
+}
+
+.cart .discount .controls {
+    display: flex;
+}
+
+.cart .discount .controls button {
+    margin-left: 5px;
+}
+
+.no-prods {
+    padding-top: 70px;
+}
+
+.no-prods h3 {
+    font-size: 38px;
+    font-weight: 300;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.no-prods h4 {
+    font-weight: 300;
+}
+
+.cart .divider {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #bdb4b4;
+}
+
+
+.error {
+    color:tomato;    
+}

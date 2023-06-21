@@ -1,0 +1,21 @@
+
+
+.home {
+    min-height: 400px;
+    padding-top: 2rem;
+}
+
+.home h1 {
+    text-align: center;
+    color: darkslategray;    
+    margin-bottom: 0;
+}
+
+.home h4 {
+    text-align: center;
+    color: #6a6b6b;
+    margin-bottom: 2rem;
+}
+
+
+

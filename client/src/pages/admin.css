@@ -1,0 +1,81 @@
+
+.admin {
+
+}
+
+.admin h1 {
+    text-align: left;
+    margin-right: -10px;
+    font-size: 70px;
+    color: #d6d6d6;
+    position: absolute;
+    left: -13px;
+    top: 46px;
+}
+
+.admin .sections {
+    display: flex;
+    margin-top: 85px;
+}
+
+.admin .sections h3 {
+    font-weight: bold;
+    color: #84a297;
+}
+
+.admin .sections .products {
+    flex: 3;    
+}
+
+.admin .sections .coupons {
+    flex: 2;
+}
+
+.admin .sections section {
+    text-align: left;    
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 1px solid #b6b4b4;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.admin .sections .form-buttons {
+    margin:10px 0;
+    text-align: center;
+}
+
+.admin .product-list {
+    list-style:none;
+    padding: 0;
+}
+
+.admin .product-list li {
+    display: flex;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+.admin .product-list li:hover {
+    border: 1px solid #aa7970;
+}
+
+.admin .product-list li .title {
+    flex: 4;
+}
+
+.admin .product-list li .price {
+    flex: 1;
+}
+
+.admin .product-list li .cat {
+    flex: 2;
+}
+
+
+.admin .product-list li button {
+    width: 30px;
+}
